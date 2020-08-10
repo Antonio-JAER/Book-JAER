@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+			
+	::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #1C1D24;/*#1C1D24;*/
+}
+::-webkit-scrollbar-thumb {
+	border: none;
+    background-color: orangered;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	border: none;
+    background-color: whitesmoke;
+}		
+
+		#foto img {
+			position: fixed;
+			top: 25%;
+			left: 5%;
+			border-radius: 300px;
+			border: black;
+			border-right-style: outset;
+			box-shadow: -10px 15px 10px 0px rgba(0,0,0,0.7);
+		}
+		
+		.info {
+		position: relative; 
+		top: 100px;
+		left: 45%;
+		width: 40%;
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		font-family: "Myriad Pro", "DejaVu Sans Condensed", "sans-serif";
+		font-size: auto;
+		/*background-color: rgba(255,255,255,0.05);*/
+		color: black;
+		border-left-style: outset;
+		border-left-color: black;
+		border-radius: 30px;
+		}
+		.info p {
+			text-align: justify;
+			font-family: "Gill Sans", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+		}
+		
+		.info div {
+			border-top-style: outset;
+			border-right-style: outset;
+			border-radius: 15px;
+			border-color: orangered;
+			padding-right: 10px;
+			
+		}
+		#total {
+			width: 100%;
+			height: 10px;
+			background-color: grey;
+			border-radius: 5px;
+		}
+		#premiere {
+			width: 90%;
+			height: 10px;
+			background-color: #8C067F;
+			border-radius: 5px;
+		}
+		#after {
+			width: 80%;
+			height: 10px;
+			background-color: #430C9C;
+			border-radius: 5px;
+		}
+		#illus {
+			width: 80%;
+			height: 10px;
+			background-color: #F1700C;
+			border-radius: 5px;
+		}
+		#photo {
+			width: 80%;
+			height: 10px;
+			background-color: #2A81F5;
+			border-radius: 5px;
+		}
+		#inde {
+			width: 50%;
+			height: 10px;
+			background-color: #DD1069;
+			border-radius: 5px;
+		}
+		#anit {
+			width: 80%;
+			height: 10px;
+			background-color: #DFEC0D;
+			border-radius: 5px;
+		}
+		#anid {
+			width: 90%;
+			height: 10px;
+			background-color: #DFEC0D;
+			border-radius: 5px;
+		}
+        #dream {
+			width: 90%;
+			height: 10px;
+			background-color: #078225;
+			border-radius: 5px;
+		}
+        #light {
+			width: 80%;
+			height: 10px;
+			background-color: #29EAED;
+			border-radius: 5px;
+		}
+		

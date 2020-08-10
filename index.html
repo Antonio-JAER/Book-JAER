@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Antonio Rios</title>
+<link rel="icon" type="img/png" href="img/icono.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+.navbar {
+	width: 99%;
+	background-color: hsla(0,0%,0%,0.00);
+	overflow: auto;
+}
+	.navbar i{
+		color: black;
+	}
+	.navbar a:hover i{
+		color: whitesmoke;
+	}
+	
+.navbar a {
+  float: right; 
+  text-align: center;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.navbar a:hover {
+  background-color: hsla(0,0%,34%,0.50);
+  border-radius: 25px;
+  color: whitesmoke;
+}
+
+.active {
+  background-color: hsla(0,0%,0%,0.00);
+}
+	i {
+		color: white;
+	}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 300px) {
+	
+	.navbar a {
+    float: none;
+    display: block;
+  	}
+	}
+	#pantalla {
+		float: none;
+		display: block;
+	}
+
+	#pantalla {
+		position: fixed;
+		overflow: auto;
+		left: 0;
+		top: 0;
+		buttom: 0;
+		min-height: 100%;
+		min-width: 100%;
+		height: auto;
+		width: auto;
+		z-index: -10;
+		align-content: center;
+		border: none;
+	}
+	
+</style>
+
+<body>
+
+<div class="navbar">
+  
+  <a href="html/contacto.html" target="change"><i class="fa fa-fw fa-envelope-o"></i> Contacto</a>
+  <a href="html/portafolio.html" target="change"><i class="fa fa-fw fa-clipboard"></i> Portafolio</a>
+  <a href="html/curriculum.html" target="change"><i class="fa fa-fw fa-address-book-o"></i> Curriculum</a>
+  <a href="html/principal.html" target="change"><i class="fa fa-fw fa-home"></i> Inicio</a>
+</div>
+<iframe id="pantalla" src="html/principal.html" name="change">
+	</iframe>
+</body>
+</html>
